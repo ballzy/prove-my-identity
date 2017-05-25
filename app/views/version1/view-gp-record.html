@@ -1,0 +1,42 @@
+{% extends '_layouts/layout_2-3.html' %}
+
+{% block page_title %}Index : {{serviceName}}{% endblock %}
+
+{% block pageTitle %}View my GP record{% endblock %}
+
+{% block content %}
+
+<div class="first-item">
+  <form>
+    <div class="form-group">
+      <fieldset class="inline">
+
+        <h2><legend>Do you have an online account for your GP?</legend></h2>
+        <div>
+          <label class="block-label selection-button-radio" for="radio-inline-1">
+            <input id="radio-inline-1" type="radio" name="radio-inline-group" value="Yes">
+            Yes
+          </label>
+        </div>
+        <div>
+          <label class="block-label selection-button-radio" for="radio-inline-2">
+            <input id="radio-inline-2" type="radio" name="radio-inline-group" value="No">
+            No
+          </label>
+        </div>
+        <div>
+          <label class="block-label selection-button-radio" for="radio-inline-3">
+            <input id="radio-inline-3" type="radio" name="radio-inline-group" value="dont-know">
+            I don't know
+          </label>
+        </div>
+
+      </fieldset>
+    </div>
+    <a class="button" href="login">Continue</a>
+  </form>
+</div>
+
+{% endblock %}
+
+{% block footer %}{% endblock %}
