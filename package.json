@@ -1,21 +1,21 @@
 {
-  "name": "ballzy/view-my-gp-record",
+  "name": "ballzy/prove-my-identity",
   "version": "1.0.0",
-  "description": "view-my-gp-record",
+  "description": "prove-my-identity",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ballzy/view-my-gp-record.git"
+    "url": "git+https://github.com/ballzy/prove-my-identity.git"
   },
   "author": "ermlikeyeah",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ballzy/view-my-gp-record/issues"
+    "url": "https://github.com/ballzy/prove-my-identity/issues"
   },
-  "homepage": "https://github.com/ballzy/view-my-gp-record#readme",
+  "homepage": "https://github.com/ballzy/prove-my-identity#readme",
   "dependencies": {
     "basic-auth": "^1.0.4",
     "body-parser": "^1.15.2",
