@@ -185,6 +185,10 @@ pre.user-input {
   }
 }
 
+.p__sub {
+  font-size: 14px;
+}
+
 ul, ol {
   margin: 16px 0 24px 0;
   padding-left: 1em;
