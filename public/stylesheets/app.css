@@ -189,6 +189,10 @@ pre.user-input {
   font-size: 14px;
 }
 
+p, li, a {
+  font-size: 19px;
+}
+
 ul, ol {
   margin: 16px 0 24px 0;
   padding-left: 1em;
