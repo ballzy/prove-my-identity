@@ -64,6 +64,7 @@ vertical-align: middle; }
   font-weight: bold;
   padding: 0px 72px;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .overlay-dialog h2 {
@@ -98,32 +99,61 @@ vertical-align: middle; }
   font-size: 20px;
 }
 
+.overlay-dialog button:hover {
+  outline-style: solid;
+  outline-color: #fada8b;
+  outline-width: 5px;
+  cursor: pointer;
+}
+
+.overlay-dialog button span {
+  font-size: 14px;
+  display: block;
+}
+
 button.button-nhs {
-  background-color: #005eb8;
+  background: #005eb8 url('../images/nhs-sm.png') no-repeat 17px 13px;
   border: 1px solid #01498f;
   color: #fff;
 }
 
 button.button-verify {
-  background-color: #fff;
+  background: #fff url('../images/verify-sm.png') no-repeat 21px 9px;
   border: 1px solid #ababab;
   color: #000;
 }
 
 button.button-fb {
-  background: #3c5798 url('../images/fb-sm.png') no-repeat 5px 5px;
+  background: #3c5798 url('../images/fb-sm.png') no-repeat 21px 13px;
   border: 1px solid #01498f;
   color: #fff;
+  font-size: 17px;
 }
 
 button.button-google {
-  background-color: #fff;
+  background: #fff url('../images/google-sm.png') no-repeat 16px 13px;
   border: 1px solid #ababab;
   color: #000;
 }
 
 button.button-twitter {
-  background-color: #58aaee;
+  background: #58aaee url('../images/twitter-sm.png') no-repeat 13px 13px;
   border: 1px solid #3e9fef;
   color: #fff;
+  font-size: 17px;
+}
+
+.social-box {
+  border-top: #ababab 1px dashed;
+  border-bottom: #ababab 1px dashed;
+  margin: 0px 72px;
+  padding-top: 20px;
+}
+
+p.help-links {
+  text-align: center;
+}
+
+p.help-links a {
+  font-size: 14px;
 }
