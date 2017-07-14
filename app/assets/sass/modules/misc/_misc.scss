@@ -87,7 +87,7 @@ vertical-align: middle; }
 }
 
 .signin-logo img {
-  margin: 90px;
+  margin: 45px;
 }
 
 .overlay-dialog button {
@@ -146,7 +146,8 @@ button.button-twitter {
 .social-box {
   border-top: #ababab 1px dashed;
   border-bottom: #ababab 1px dashed;
-  margin: 0px 72px;
+  margin: 0 auto;
+  max-width: 456px;
   padding-top: 20px;
 }
 
@@ -154,6 +155,9 @@ p.help-links {
   text-align: center;
 }
 
+input.code {
+  width: 50%;
+}
 p.help-links a {
   font-size: 14px;
 }
