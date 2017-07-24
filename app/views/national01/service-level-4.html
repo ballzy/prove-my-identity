@@ -1,42 +1,95 @@
-{% extends '_layouts/layout_1-2-signed-in.html' %}
+{% extends '_layouts/layout_2-3-signed-in.html' %}
 
 {% block page_title %}My NHS Account{{serviceName}}{% endblock %}
 
 {% block content %}
 
-<div>
-	<h1>Dashboard</h1>
-	<p>This is where you can store your favourites</p>
-	<p><a href="http://transformation.blog.nhs.uk/" rel="external">Read more about NHS.UK on our blog</a></p>
-	<h2 id="conditions" class="heading-large">GP Surgeries</h2>
-	<ul>
-		<li><a href="https://patient.emisaccess.co.uk/account/login?ReturnUrl=%2Fappointments%2Favailable">Chandos Medical Centre</a></li>
-		<li><a href="https://patient.emisaccess.co.uk/account/login?ReturnUrl=%2Fappointments%2Favailable">Woodhouse Health Centre</a></li>
-	</ul>
-	<h2 id="symptoms" class="heading-large">Conditions</h2>
-	<ul>
-		<li><a href="https://beta.nhs.uk/conditions/glandular-fever">Glandular fever</a></li>
-		<li><a href="https://beta.nhs.uk/conditions/hay-fever">Hay fever</a></li>
-	</ul>
-	<h2 id="symptoms" class="heading-large">Medicines</h2>
-	<ul>
-		<li><a href="https://beta.nhs.uk/medicines/citalopram">Citalopram</a></li>
-		<li><a href="https://beta.nhs.uk/medicines/ibuprofen-for-children">Ibuprofen for children</a></li>
-	</ul>
-</div>
+<style>
+.task {
+	background-color: #dee0e2;
+	width: 100%;
+	border-left: 5px solid #005eb8;
+	margin-bottom: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+.task h3 {
+	padding-top: 10px;
+	margin-top: 0;
+	width: 75%;
+	display: inline-block;
+	font-weight: normal;
+}
+.task p {
+	padding-top: 10px;
+	margin-top: 0;
+	font-size: 0.8em;
+}
+.task span {
+	font-size: 0.85em;
+	text-align: right;
+}
+.taskstatus {
+	float: right;
+	padding-right: 15px;
+	padding-top: 5px;
+}
+.complete { color: #3E8117;}
+.incomplete { color: red;}
+.pending { color: #005eb8;}
+.rejected { color: red;}
+.task-button {
+	background-color: #3E8117;
+	color: #fff;
+	padding: 10px;
+}
+a.task-button , a.task-button:visited, a.task-button:hover, a.task-button:active {
+	text-decoration: none;
+	color: #fff;
+}
 
+</style>
 
-{% endblock %}
+<div class="first-item">
 
-{% block rightcol %}
-<div class="reading-width">
-	<h2 class="heading-large">Services</h2>
-	<ul>
-		<li><a href="service-level-1">Book a GP appointment online</a></li>
-		<li><a href="service-level-2">National opst out</a></li>
-		<li><a href="service-level-3">Child health</a></li>
-		<li><a href="service-level-4">Manage and view my health information</a></li>
-	</ul>
+    <div>
+
+        <h1 class="heading-large">Service name</h1>
+
+        <h2 class="heading-xlarge"><legend>Security Access Page</legend></h2>
+
+        <p>We take your security very seriously to protect your personal information and identity.</p>
+        <p>You must complete these tasks to access the service</p>
+
+        <div class="task">
+        	<h3 class="">Sign in or create and NHS Beta account</h3>
+        	<div class="taskstatus">
+	        	<span class="complete">COMPLETE</span>
+	        </div>
+        	<p>Completed on 21st July 2017</p>
+        </div>
+
+        <div class="task">
+        	<h3 class="heading-large">Connect account to your NHS record</h3>
+        	<span class="taskstatus incomplete">INCOMPLETE</span>
+		    <p><a href="#" class="task-button">Connect your NHS record</a></p>
+        </div>
+
+        <div class="task">
+        	<h3 class="heading-large">Verify your identity with GOV.UK Verify</h3>
+        	<span class="taskstatus pending">PENDING</span>
+        	<p>Your application is being processed</p>
+        </div>
+
+        <div class="task">
+        	<h3 class="heading-large">Prove your identity in person</h3>
+        	<span class="taskstatus rejected">REJECTED</span>
+        	<p><a href="#" class="task-button">Prove your identity</a></p>
+        </div>
+
+    </div>
+
 </div>
 
 
