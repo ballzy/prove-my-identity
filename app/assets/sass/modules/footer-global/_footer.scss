@@ -1,5 +1,5 @@
 html {
-  background-color: $pale-grey;
+  
 }
 
 #global-footer {
@@ -8,7 +8,9 @@ html {
   padding-bottom: $leading;
   min-height: 80px;
   border-top: 1px solid darken($pale-grey, 5);
-  background-color: $pale-grey;
+  background-color: #005eb8;
+  border-top: 4px solid #003087;
+  color: #fff;
 }
 
 .footer-container {

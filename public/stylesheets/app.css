@@ -941,17 +941,15 @@ details summary:focus {
   box-shadow: 0 0 0 5px #F7E214;
 }
 
-html {
-  background-color: #d9e1e2;
-}
-
 #global-footer {
   margin-top: 64px;
   padding-top: 16px;
   padding-bottom: 16px;
   min-height: 80px;
   border-top: 1px solid #cbd6d7;
-  background-color: #d9e1e2;
+  background-color: #005eb8;
+  border-top: 4px solid #003087;
+  color: #fff;
 }
 
 .footer-container {
