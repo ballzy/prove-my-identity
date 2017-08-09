@@ -522,27 +522,27 @@ hr {
 }
 
 .service-alert {
-  background-color: #FFB81C;
-  color: #00365D;
+  background-color: #f0f4f5;
+  color: #000;
   font-size: 14px;
   line-height: 16px;
 }
 
-.service-alert a {
-  color: #00365D;
-}
-
 .service-alert-inner {
-  padding-bottom: 8px;
-  padding-top: 8px;
-  font-size: 14px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  font-size: 16px;
 }
 
 .service-alert-inner p {
   padding: 0;
   margin: 0;
   display: table;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.service-alert-inner a {
+  font-size: 16px;
 }
 
 .service-alert-inner span {
