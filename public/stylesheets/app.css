@@ -110,6 +110,7 @@ h3, .heading-large,
 
 body, pre.user-input {
   color: #0b0c0c;
+  font-family: "Frutiger W01", Arial, san-serif;
 }
 
 .baseline {
@@ -1873,4 +1874,12 @@ p.help-links a {
 .account .acc-connect img {
   float: right;
   margin-top: 5px;
+}
+
+.call-out {
+  padding: 32px;
+}
+
+.component-primary-care {
+  border: 8px solid #0072ce;
 }
