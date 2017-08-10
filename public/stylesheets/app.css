@@ -1716,6 +1716,13 @@ iframe {
   margin: 0;
 }
 
+.component-callout {
+  background-color: #fdf2d5;
+  border: solid #fada8b;
+  border-width: 4px 0;
+  padding: 20px;
+}
+
 .overlays {
   position: fixed;
   overflow: auto;
