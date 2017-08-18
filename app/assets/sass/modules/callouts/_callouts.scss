@@ -90,10 +90,11 @@
 
 .callout--attention {
   background-color: transparent;
-  border: 8px solid #40add7;
+  border: 4px solid $error-colour;
+  font-weight: bold;
 
   @include media(mid) {
-    border: 10px solid #40add7;
+    border: 4px solid $error-colour;
     padding: $leading;
   }
 }

@@ -1034,9 +1034,15 @@ details summary:focus {
   color: #D81E05;
 }
 
+.form-group.-errors {
+  border-left: 4px solid #D81E05;
+  padding-left: 20px;
+}
+
 .form-group.-errors input,
 .form-group.-errors textarea {
   border-color: #D81E05;
+  border-width: 4px;
 }
 
 .js-enabled .form-group.-errors .selection-button-radio::before,
@@ -1651,12 +1657,13 @@ iframe {
 
 .callout--attention {
   background-color: transparent;
-  border: 8px solid #40add7;
+  border: 4px solid #D81E05;
+  font-weight: bold;
 }
 
 @media (min-width: 500px) {
   .callout--attention {
-    border: 10px solid #40add7;
+    border: 4px solid #D81E05;
     padding: 16px;
   }
 }
