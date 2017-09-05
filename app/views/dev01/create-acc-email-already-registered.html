@@ -1,0 +1,34 @@
+{% extends '_layouts/layout_2-3.html' %}
+
+{% block page_title %}Create an NHS account{{serviceName}}{% endblock %}
+
+{% block pageTitle %}Create an NHS account{% endblock %}
+
+{% block content %}
+
+<div class="first-item">
+  <form>
+    <div class="callout--attention">
+      This email has already been registered. Login below.<br>
+    </div>
+    <div class="form-group">
+
+      <h2><legend>Login to your NHS Account.</legend></h2>
+
+      <div class="form-group">
+        <label class="form-label-bold" for="field3">Email address</label>
+        <input class="form-control" id="field3" name="field3" type="email">
+      </div>
+      <div class="form-group">
+        <label class="form-label-bold" for="field2">Password</label>
+        <input class="form-control" id="field2" name="field2" type="password">
+      </div>
+
+    </div>
+    <a class="button" href="dashboard">Login</a>
+  </form>
+</div>
+
+{% endblock %}
+
+{% block footer %}{% endblock %}
