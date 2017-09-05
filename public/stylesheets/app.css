@@ -1941,3 +1941,7 @@ p.help-links a {
 .component-primary-care {
   border: 8px solid #0072ce;
 }
+
+p.small {
+  font-size: 16px;
+}
