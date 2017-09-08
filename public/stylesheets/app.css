@@ -1942,6 +1942,7 @@ p.help-links a {
   border: 8px solid #0072ce;
 }
 
-p.small {
+p.small, li.small {
   font-size: 16px;
+  line-height: 1em;
 }
