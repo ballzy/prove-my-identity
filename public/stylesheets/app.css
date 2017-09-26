@@ -1946,3 +1946,11 @@ p.small, li.small {
   font-size: 16px;
   line-height: 1em;
 }
+
+p.small {
+  line-height: 1.4em;
+}
+
+a.small {
+  font-size: 16px;
+}
